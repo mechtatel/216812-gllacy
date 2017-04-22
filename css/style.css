@@ -1,7 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+/*border: 1px solid violet;*/
+
+
 body {
+	width: 900px;
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
-	background: ;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
 }
+
+.page {
+	background-color: rgb(132, 157, 143);
+}
+
+.page-header {
+	color: rgb(255, 255, 255);
+}
+
+.page-header .center {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 860px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header-btn {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 270px;
+	margin-left: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: rgb(255, 255, 255);
+}
+
+.header-btn .btn {
+	position: relative;
+	width: 35px;
+	height: 35px;
+	font-size: 14px;
+	font-weight: normal;
+	vertical-align: middle;
+	line-height: 35px;
+	background-color: rgb(164, 185, 173);
+	border-radius: 20px;
+}
+
+.header-btn .search::after {
+	content: url("K:/Вёрстка/216812-gllacy/img/Loupe.png");
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+.header-btn .enter {
+	width: 55px;
+	padding-left: 40px;
+}
+
+.header-btn .enter::after {
+	content: url("K:/Вёрстка/216812-gllacy/img/enter.png");
+	position: absolute;
+	top: 4px;
+	left: 15px;
+}
+
+.header-btn .cart {
+	width: 75px;
+	padding-left: 45px;
+}
+
+.header-btn .cart::after {
+	content: url("K:/Вёрстка/216812-gllacy/img/cart.png");
+	position: absolute;
+	top: 6px;
+	left: 15px;
+}
+
+.page-nav {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.page-nav li {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.page-nav li a {
+	padding: 10px;
+	color: rgb(255, 255, 255);
+}
+
+.header-time-phone {
+	width: 170px;
+	height: 60px;
+	margin-left: auto;
+	padding-right: 10px;
+	text-align: right;
+}
+
+.header-time-phone p {
+	font-size: 14px;
+	margin-top: 0;
+}
+
+.header-time-phone a {
+	font-size: 22px;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	line-height: 35px;
+}
+
+
+
+
+
 
